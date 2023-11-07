@@ -1,0 +1,7 @@
+@import url('Spacing.css');
+@import url('FontColor.css');
+.page-footer{
+    width: 100%;
+    height: 300px;
+    background-color: var(--black);
+}

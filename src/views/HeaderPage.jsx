@@ -17,7 +17,6 @@ const HeaderPage = () => {
                     </ul>
                 </div>
                 <div className="searching">
-
                     <div className="box-searching">
                         <input type="text" name="" id="" placeholder="Search products" />
                         <span><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -34,6 +33,7 @@ const HeaderPage = () => {
                     </div>
                 </div>
             </div>
+
         </>
     );
 }

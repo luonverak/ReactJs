@@ -5,6 +5,7 @@
     height: 90px;
     background-color: rgb(238, 238, 238);
     display: flex;
+    position: absolute;
 }
 .page-logo{
     width: 20%;
@@ -76,6 +77,7 @@
 }
 .auth span{
     padding-right: 10px;
+    display: flex;
 }
 .card{
     width: 50%;
