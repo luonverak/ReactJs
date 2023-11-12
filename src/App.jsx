@@ -4,15 +4,18 @@ import HeaderPage from './views/HeaderPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SlideShow from './views/SlideShow';
 import Footer from './views/Footer';
+import CategoryProduct from './views/CategoryPage';
 function App() {
   return (
     <>
       <BrowserRouter>
-        <HeaderPage/>
+        <HeaderPage />
         <Routes>
-          <Route path='/' element={<SlideShow/>}/>
+          <Route index element={<SlideShow />} />
+          <Route path='/category' element={<CategoryProduct />} />
         </Routes>
-        <Footer/>
+        <CategoryProduct />
+        <Footer />
       </BrowserRouter>
     </>
   );
