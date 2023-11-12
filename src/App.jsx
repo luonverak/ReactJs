@@ -5,7 +5,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SlideShow from './views/SlideShow';
 import Footer from './views/Footer';
 import CategoryProduct from './views/CategoryPage';
-function App() {
+import IndexPage from './views/IndexPage';
+const App=()=> {
   return (
     <>
       <BrowserRouter>
@@ -14,7 +15,7 @@ function App() {
           <Route index element={<SlideShow />} />
           <Route path='/category' element={<CategoryProduct />} />
         </Routes>
-        <CategoryProduct />
+        <IndexPage />
         <Footer />
       </BrowserRouter>
     </>
