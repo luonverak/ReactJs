@@ -1,18 +1,20 @@
 @import url('Spacing.css');
 @import url('FontColor.css');
-.category-page{
+
+.top-category {
     width: 100%;
-    height: 100vh;
-    background-color: burlywood;
+    height: 450px;
 }
-.title-category{
+
+.title-category {
     width: 100%;
     height: 20%;
     display: flex;
     align-items: end;
     padding-left: 15%;
 }
-.all-category{
+
+.all-category {
     width: 100%;
     height: 80%;
     display: flex;
@@ -21,7 +23,8 @@
     position: relative;
     gap: 1rem;
 }
-.item-category{
+
+.item-category {
     width: 194px;
     height: 252px;
     background-color: red;
@@ -30,21 +33,24 @@
     justify-content: center;
     overflow: hidden;
 }
-.item-category img{
+
+.item-category img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 10px;
     transition: all 0.8s;
 }
-.item-category h1{
+
+.item-category h1 {
     margin-top: 10px;
     position: absolute;
     z-index: 1;
     color: var(--white);
     font-size: 25px;
 }
-.item-category img:hover{
+
+.item-category img:hover {
     transform: scale(1.2);
     transition: all 0.8s;
 }

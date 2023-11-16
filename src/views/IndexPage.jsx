@@ -1,9 +1,11 @@
 import React from "react";
-import CategoryProduct from "./CategoryPage";
+import TopCategory from "./TopCategory";
+import SlideShow from './SlideShow';
 const IndexPage=()=>{
     return (
         <>
-            <CategoryProduct/>
+            <SlideShow />
+            <TopCategory/>
         </>
     );
 }

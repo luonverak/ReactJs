@@ -6,6 +6,8 @@
     background-color: rgb(238, 238, 238);
     display: flex;
     position: absolute;
+    position: sticky;
+    top: 0;
 }
 .page-logo{
     width: 25%;
