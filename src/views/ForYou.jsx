@@ -6,7 +6,6 @@ const ForYou=()=>{
     for(let i=0;i<6;i++){
         data[i]=<div className="item-foryou">
                     <div className="thumbnail-item">
-
                         <img src="https://assets-global.website-files.com/63e857eaeaf853471d5335ff/63e8c4e54b76914b262f2448_headphone-min.png" alt=""/>
                     </div>
                     <div className="item-name">
