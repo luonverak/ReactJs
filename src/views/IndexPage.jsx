@@ -6,6 +6,7 @@ import ChooseBrand from "./ChooseBrand";
 import Discount from "./Discount";
 import WeaklyPopular from "./WeaklyPopular";
 import Banner2 from "./Banner2";
+import BestDeal from "./BestDeal";
 const IndexPage=()=>{
     return (
         <>
@@ -16,6 +17,7 @@ const IndexPage=()=>{
             <Discount/>
             <WeaklyPopular/>
             <Banner2/>
+            <BestDeal/>
         </>
     );
 }

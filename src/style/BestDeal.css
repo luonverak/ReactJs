@@ -1,0 +1,97 @@
+@import url('Spacing.css');
+.best-deal{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.category{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+.category button{
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border: solid black;
+}
+.block-item{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.best-item{
+    width: 300px;
+    height: 446px;
+}
+.best-thumbnail{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(240, 248, 255, 0.794);
+    border-radius: 20px;
+}
+.best-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.best-detail{
+    width: 100%;
+    height: 30%;
+}
+.best-name{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-name h1{
+    font-size: 20px;
+}
+.decription-best{
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.decription-best p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.button-add-cart{
+    width: 100%;
+    height: 40%;
+}
+.button-add-cart button{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 20px;
+}
