@@ -33,11 +33,11 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
 }
 .best-item{
-    width: 300px;
+    width: 304px;
     height: 446px;
 }
 .best-thumbnail{
