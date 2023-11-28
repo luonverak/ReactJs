@@ -10,6 +10,8 @@ import BestDeal from "./BestDeal";
 import CashBack from "./CashBack";
 import MostSelling from "./MostSelling";
 import TrendingProduct from "./TrendingProduct";
+import BestStore from "./BestStore";
+import ServiceShop from "./ServiceShop";
 const IndexPage=()=>{
     return (
         <>
@@ -24,6 +26,8 @@ const IndexPage=()=>{
             <CashBack/>
             <MostSelling/>
             <TrendingProduct/>
+            <BestStore/>
+            <ServiceShop/>
         </>
     );
 }

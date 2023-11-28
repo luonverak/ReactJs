@@ -1,0 +1,52 @@
+@import url('Spacing.css');
+.best-store{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+}
+.store-title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.store-block{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 1rem;
+}
+.store-item{
+    width: 302px;
+    height: 356px;
+}
+.store-thumbnail{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: end;
+}
+.store-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.store-logo{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    position: absolute;
+    margin-bottom: -25px;
+    margin-left: 20px;
+}
+.trending-detail{
+    width: 100%;
+    height: 35%;
+}
+.trending-detail p:nth-child(3){
+    color: red;
+}
+.trending-detail h1{
+    font-size: 22px;
+}
