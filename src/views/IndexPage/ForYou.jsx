@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/ForYou.css';
+import '../../style/IndexPage/ForYou.css';
 const data=[];
 
 const ForYou=()=>{

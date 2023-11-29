@@ -1,4 +1,4 @@
-@import url('Spacing.css');
+@import url('../Spacing.css');
 .service-shop{
     width: 70%;
     height: 700px;
@@ -18,7 +18,7 @@
     gap: 10px;
 }
 .service-item{
-    width: 410px;
+    width: 405px;
     height: 480px;
 
 }

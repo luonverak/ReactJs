@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../../style/IndexPage/Banner2.css';
 const Banner2=()=>{
     return (
         <>

@@ -1,5 +1,5 @@
-@import url('Spacing.css');
-@import url('FontColor.css');
+@import url('../Spacing.css');
+@import url('../FontColor.css');
 .treding-product{
     width: 70%;
     height: 700px;

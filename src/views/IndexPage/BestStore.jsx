@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/BestStore.css';
+import '../../style/IndexPage/BestStore.css';
 const data=[];
 const BestStore=()=>{
     for(let i=0;i<4;i++){

@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/TrendingProduct.css';
+import '../../style/IndexPage/TrendingProduct.css';
 const data=[];
 const TrendingProduct=()=>{
     for(let i=0;i<2;i++){

@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/BestDeal.css';
+import '../../style/IndexPage/BestDeal.css';
 const button=[];
 const data=[];
 const BestDeal=()=>{

@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/ChooseBrand.css';
+import '../../style/IndexPage/ChooseBrand.css';
 const data=[];
 const ChooseBrand=()=>{
     for(let i=0;i<8;i++){

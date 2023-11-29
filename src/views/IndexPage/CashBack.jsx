@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/CashBack.css';
+import '../../style/IndexPage/CashBack.css';
 const CashBack=()=>{
     return (
         <>

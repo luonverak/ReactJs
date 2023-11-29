@@ -1,11 +1,11 @@
 import React from "react";
-import '../style/Popular.css';
+import '../../style/IndexPage/MostSelling.css';
 const data=[];
-const WeaklyPopular=()=>{
+const MostSelling=()=>{
     for(let i=0;i<6;i++){
         data[i]=<div className="item-popular">
                     <div className="thumbnail-item">
-                        <img src="https://assets-global.website-files.com/63e857eaeaf853471d5335ff/63e8c4e54b76914b262f2448_headphone-min.png" alt=""/>
+                        <img src="https://assets-global.website-files.com/63e857eaeaf853471d5335ff/63e8c4e6eaf85336ce58cf03_instax%20mini%2011-min.png" alt=""/>
                     </div>
                     <div className="item-name">
                         <h1>HomePod mini</h1>
@@ -24,9 +24,9 @@ const WeaklyPopular=()=>{
     }
     return (
         <>
-            <div className="popular">
+            <div className="most-selling">
                 <div className="title-foryou">
-                    <h1>Weekly Popular Products</h1>
+                    <h1>Most Selling Products</h1>
                 </div>
                 <div className="show-foryou">
                     {data}
@@ -36,4 +36,4 @@ const WeaklyPopular=()=>{
         </>
     );
 }
-export default WeaklyPopular;
+export default MostSelling;

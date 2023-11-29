@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/Discount.css';
+import '../../style/IndexPage/Discount.css';
 const data = [];
 const Discount=()=>{
     for(let i=0;i<4;i++){

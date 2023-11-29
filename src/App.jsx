@@ -3,7 +3,7 @@ import './style/App.css';
 import HeaderPage from './views/HeaderPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './views/Footer';
-import CategoryProduct from './views/CategoryPage';
+import CategoryProduct from './views/Category/CategoryPage';
 import IndexPage from './views/IndexPage';
 const App = () => {
   return (

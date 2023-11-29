@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/ServiceShop.css';
+import '../../style/IndexPage/ServiceShop.css';
 const data=[];
 const ServiceShop=()=>{
     for(let i=0;i<3;i++){

@@ -1,6 +1,6 @@
-@import url('Spacing.css');
+@import url('../Spacing.css');
 
-.most-selling {
+.popular {
     width: 100%;
     height: 600px;
 }

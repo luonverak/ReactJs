@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/TopCategory.css'
+import '../../style/IndexPage/TopCategory.css'
 const data = [];
 const TopCategory=()=>{
     for (let i = 0; i < 6; i++) {
