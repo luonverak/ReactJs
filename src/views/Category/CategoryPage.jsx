@@ -6,7 +6,7 @@ const CategoryProduct = () => {
         <>
             <div className="category-page">
                 <h1>Category</h1>
-
+                
             </div>
 
         </>
