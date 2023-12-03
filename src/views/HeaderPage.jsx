@@ -1,7 +1,15 @@
 import React from "react";
 import '../style/Header.css';
 import { Link } from "react-router-dom";
-const HeaderPage = () => {
+const HeaderPage = ({ handleLoginClick }) => {
+    const handleClick = () => {
+        handleLoginClick();
+        document.getElementsByClassName('login-form')[0].style.display='flex';
+        document.getElementById('close').addEventListener('click',(()=>{
+            document.getElementsByClassName('login-form')[0].style.display='none';
+        }))
+    };
+
     return (
         <>
             <div className="page-header">
@@ -38,13 +46,13 @@ const HeaderPage = () => {
                     </ul>
                 </div>
                 <div className="searching">
-                    <div className="box-searching">
+                    <div className="box-searching" >
                         <input type="text" name="" id="" placeholder="Search products" />
                         <span><i class="fa-solid fa-magnifying-glass"></i></span>
                     </div>
                 </div>
                 <div className="auth-card">
-                    <div className="auth">
+                    <div className="auth" onClick={handleClick}  >
                         <span><i class="fa-regular fa-user"></i> </span>
                         <p>Account</p>
                     </div>
@@ -57,5 +65,6 @@ const HeaderPage = () => {
 
         </>
     );
+
 }
 export default HeaderPage;
